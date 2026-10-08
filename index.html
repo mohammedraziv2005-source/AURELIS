@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURELIS — Architecture Beyond Expectation | Luxury Architectural Studio</title>
+  <meta name="description" content="AURELIS creates highly considered luxury residences combining contemporary architecture, natural materials, craftsmanship and timeless functionality across California, Europe, and Asia.">
+  <meta name="keywords" content="luxury architecture, modern residential architect, contemporary desert villa, high-end interior design, AURELIS architecture">
+  <meta name="author" content="AURELIS Architecture">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AURELIS — Architecture Beyond Expectation">
+  <meta property="og:description" content="Crafting spaces where architecture, nature and life exist in perfect balance.">
+  <meta property="og:image" content="assets/images/hero_desert_villa.jpg">
+  <meta property="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Outfit (Display & Editorial) and Manrope (Body & Technical Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="luxury-theme">
+
+  <!-- Custom Architectural Cursor -->
+  <div class="custom-cursor" id="custom-cursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" id="custom-cursor-follower" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" id="brand-logo-link" aria-label="AURELIS Homepage">
+        <svg class="brand-monogram" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.3"/>
+          <path d="M20 9L11 31H15L20 17.5L25 31H29L20 9Z" fill="currentColor"/>
+          <circle cx="20" cy="24" r="2.2" fill="currentColor"/>
+        </svg>
+        <div class="brand-text-group">
+          <span class="brand-name">AURELIS</span>
+          <span class="brand-sub">ARCHITECTURE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#journal" class="nav-link">Journal</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Mobile Hamburger -->
+      <div class="header-actions">
+        <a href="#contact" class="btn-talk" id="header-contact-btn">
+          <span>Let's Talk</span>
+          <svg class="btn-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==============================================
+         HERO SECTION: Large Architectural Frame
+         ============================================== -->
+    <section class="hero-section" id="hero" aria-label="Hero Section">
+      <div class="editorial-container">
+        <div class="hero-frame">
+          
+          <!-- Parallax Hero Background Image -->
+          <div class="hero-image-wrap" id="hero-image-wrap">
+            <img 
+              src="assets/images/hero_desert_villa.jpg" 
+              alt="Ultra-modern luxury organic desert residence by AURELIS during golden hour with sweeping curved concrete roof and panoramic glass facade" 
+              class="hero-img" 
+              id="hero-img"
+              loading="eager"
+            />
+            <div class="hero-overlay-gradient"></div>
+          </div>
+
+          <!-- Hero Top Meta Badges -->
+          <div class="hero-top-bar">
+            <div class="hero-eyebrow">
+              <span class="pulse-dot"></span>
+              <span>CALIFORNIA · 2026 PRIVATE ESTATE</span>
+            </div>
+            <div class="hero-badge-architectural">
+              <span>ORGANIC MONOLITHIC RESIDENCE</span>
+            </div>
+          </div>
+
+          <!-- Hero Editorial Typography Overlay -->
+          <div class="hero-content-bottom">
+            <div class="hero-headline-block">
+              <h1 class="hero-title">
+                <span class="title-line-1">BEYOND</span>
+                <span class="title-line-2">THE ORDINARY</span>
+              </h1>
+              <p class="hero-subtext">
+                Architecture designed for those who expect more.
+              </p>
+
+              <!-- Hero CTA Buttons -->
+              <div class="hero-actions">
+                <a href="#projects" class="btn-primary" id="hero-cta-projects">
+                  <span>Explore Projects</span>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#about" class="btn-ghost" id="hero-cta-about">
+                  <span>Discover AURELIS</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Bottom Right Stats Card & Thumbnail Previews -->
+            <div class="hero-meta-column">
+              <!-- Interactive Angle Thumbnails -->
+              <div class="hero-thumbnails-preview" aria-label="Residences Highlights">
+                <button class="hero-thumb-btn active" data-img="assets/images/hero_desert_villa.jpg" aria-label="Desert Residence View 1">
+                  <img src="assets/images/hero_desert_villa.jpg" alt="Villa Angle 1">
+                </button>
+                <button class="hero-thumb-btn" data-img="assets/images/featured_desert_house.jpg" aria-label="Desert Residence Twilight View">
+                  <img src="assets/images/featured_desert_house.jpg" alt="Villa Twilight">
+                </button>
+              </div>
+
+              <!-- Completed Residences Stats Card -->
+              <div class="hero-stat-card" id="hero-stat-card">
+                <div class="stat-number-wrap">
+                  <span class="stat-number">48+</span>
+                </div>
+                <div class="stat-info-wrap">
+                  <p class="stat-label">Luxury residences completed</p>
+                  <div class="stat-avatars">
+                    <div class="avatar-stack">
+                      <span class="avatar-circle av-1">CA</span>
+                      <span class="avatar-circle av-2">CH</span>
+                      <span class="avatar-circle av-3">JP</span>
+                    </div>
+                    <span class="stat-sub">Across 12 global territories</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Floating Scroll Indicator -->
+          <div class="hero-scroll-indicator" aria-hidden="true">
+            <span class="scroll-mouse">
+              <span class="scroll-wheel"></span>
+            </span>
+            <span class="scroll-text">SCROLL TO EXPLORE</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         ABOUT SECTION: Split Layout with Big Statement
+         ============================================== -->
+    <section class="about-section" id="about" aria-label="About AURELIS">
+      <div class="editorial-container">
+        
+        <div class="about-split-layout">
+          
+          <!-- Left Column: Big Architectural Statement -->
+          <div class="about-left-col reveal-on-scroll">
+            <div class="section-tag-wrap">
+              <span class="section-tag-number">01</span>
+              <span class="section-tag-label">ABOUT AURELIS</span>
+            </div>
+            
+            <h2 class="about-statement">
+              WE CREATE SPACES WHERE ARCHITECTURE, NATURE AND LIFE EXIST IN PERFECT BALANCE.
+            </h2>
+
+            <div class="about-manifesto-badge">
+              <div class="compass-mark">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polygon points="12,4 14.5,9.5 20,12 14.5,14.5 12,20 9.5,14.5 4,12 9.5,9.5"/>
+                </svg>
+              </div>
+              <p class="manifesto-caption">Site-specific materiality · Passive climatic intelligence · Enduring proportion</p>
+            </div>
+          </div>
+
+          <!-- Right Column: Narrative & Stats -->
+          <div class="about-right-col reveal-on-scroll delay-1">
+            <p class="about-description">
+              AURELIS crafts highly considered luxury residences combining contemporary architecture, natural materials, craftsmanship and uncompromising functionality.
+            </p>
+            <p class="about-description-secondary">
+              Founded on the belief that a home is not merely shelter, but a spatial sanctuary that frames human experience, our practice sculpts environments that age with grace. Each commission begins with an exhaustive dialogue between topography, solar orientation, and the private rituals of those who dwell within.
+            </p>
+
+            <!-- Statistics Grid -->
+            <div class="about-stats-grid">
+              <div class="stat-cell">
+                <span class="stat-val" data-counter="15">15+</span>
+                <span class="stat-name">Years Experience</span>
+              </div>
+              <div class="stat-cell">
+                <span class="stat-val" data-counter="86">86+</span>
+                <span class="stat-name">Projects Completed</span>
+              </div>
+              <div class="stat-cell">
+                <span class="stat-val" data-counter="24">24</span>
+                <span class="stat-name">Awards</span>
+              </div>
+              <div class="stat-cell">
+                <span class="stat-val" data-counter="12">12</span>
+                <span class="stat-name">Countries</span>
+              </div>
+            </div>
+
+            <div class="about-action-row">
+              <a href="#projects" class="btn-outline-pill">
+                <span>Explore Residences</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <span class="consultation-note">Tailored commissions worldwide</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         PROJECTS SECTION: Asymmetrical Masonry Editorial Grid
+         ============================================== -->
+    <section class="projects-section" id="projects" aria-label="Selected Residences">
+      <div class="editorial-container">
+        
+        <!-- Section Header with Filter Controls -->
+        <div class="projects-header-row reveal-on-scroll">
+          <div class="header-titles">
+            <div class="section-tag-wrap">
+              <span class="section-tag-number">02</span>
+              <span class="section-tag-label">PORTFOLIO</span>
+            </div>
+            <h2 class="section-heading">SELECTED RESIDENCES</h2>
+          </div>
+
+          <!-- Project Filter Chips -->
+          <div class="project-filters" role="tablist" aria-label="Filter Projects">
+            <button class="filter-chip active" data-filter="all" role="tab" aria-selected="true">All (4)</button>
+            <button class="filter-chip" data-filter="desert" role="tab" aria-selected="false">Desert</button>
+            <button class="filter-chip" data-filter="coastal" role="tab" aria-selected="false">Coastal</button>
+            <button class="filter-chip" data-filter="hillside" role="tab" aria-selected="false">Hillside</button>
+            <button class="filter-chip" data-filter="urban" role="tab" aria-selected="false">Urban</button>
+          </div>
+        </div>
+
+        <!-- Asymmetrical Editorial Gallery Grid -->
+        <div class="projects-masonry-grid" id="projects-grid">
+          
+          <!-- Project 01 — Desert House (Heroic Banner Layout) -->
+          <article class="project-card card-featured reveal-on-scroll" data-category="desert" data-id="desert-house">
+            <div class="project-image-container">
+              <img 
+                src="assets/images/hero_desert_villa.jpg" 
+                alt="01 — Desert House in Palm Springs, California" 
+                class="project-img" 
+                loading="lazy"
+              />
+              <div class="project-badge-corner">
+                <span>NEW COMMISSION</span>
+              </div>
+              <button class="quick-view-trigger" aria-label="Quick view Desert House details">
+                <span>View Project</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+              </button>
+            </div>
+            <div class="project-info-bar">
+              <div class="project-meta-left">
+                <span class="project-index">01</span>
+                <div class="project-title-group">
+                  <h3 class="project-name">Desert House</h3>
+                  <p class="project-location-year">Palm Springs, California · 2026</p>
+                </div>
+              </div>
+              <div class="project-meta-right">
+                <span class="project-specs">12,400 SQ. FT · RAMMED EARTH &amp; GLASS</span>
+                <button class="project-link-btn" data-project-target="desert-house">
+                  <span>View Project</span>
+                  <span class="link-arrow">&rarr;</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 — Ocean Residence (Tall Vertical Card) -->
+          <article class="project-card card-tall reveal-on-scroll delay-1" data-category="coastal" data-id="ocean-residence">
+            <div class="project-image-container">
+              <img 
+                src="assets/images/project_ocean_residence.jpg" 
+                alt="02 — Ocean Residence in Big Sur, California" 
+                class="project-img" 
+                loading="lazy"
+              />
+              <button class="quick-view-trigger" aria-label="Quick view Ocean Residence details">
+                <span>View Project</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+              </button>
+            </div>
+            <div class="project-info-bar">
+              <div class="project-meta-left">
+                <span class="project-index">02</span>
+                <div class="project-title-group">
+                  <h3 class="project-name">Ocean Residence</h3>
+                  <p class="project-location-year">Big Sur, California · 2025</p>
+                </div>
+              </div>
+              <div class="project-meta-right">
+                <span class="project-specs">9,850 SQ. FT · BOARD-FORMED CONCRETE</span>
+                <button class="project-link-btn" data-project-target="ocean-residence">
+                  <span>View Project</span>
+                  <span class="link-arrow">&rarr;</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 — Hillside Villa (Medium Card) -->
+          <article class="project-card card-medium reveal-on-scroll delay-2" data-category="hillside" data-id="hillside-villa">
+            <div class="project-image-container">
+              <img 
+                src="assets/images/project_hillside_villa.jpg" 
+                alt="03 — Hillside Villa in Lugano, Switzerland" 
+                class="project-img" 
+                loading="lazy"
+              />
+              <button class="quick-view-trigger" aria-label="Quick view Hillside Villa details">
+                <span>View Project</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+              </button>
+            </div>
+            <div class="project-info-bar">
+              <div class="project-meta-left">
+                <span class="project-index">03</span>
+                <div class="project-title-group">
+                  <h3 class="project-name">Hillside Villa</h3>
+                  <p class="project-location-year">Lake Lugano, Switzerland · 2024</p>
+                </div>
+              </div>
+              <div class="project-meta-right">
+                <span class="project-specs">14,200 SQ. FT · QUARRIED STONE &amp; STEEL</span>
+                <button class="project-link-btn" data-project-target="hillside-villa">
+                  <span>View Project</span>
+                  <span class="link-arrow">&rarr;</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04 — Urban Pavilion (Wide Horizontal Layout) -->
+          <article class="project-card card-wide reveal-on-scroll" data-category="urban" data-id="urban-pavilion">
+            <div class="project-image-container">
+              <img 
+                src="assets/images/project_urban_pavilion.jpg" 
+                alt="04 — Urban Pavilion in Tokyo, Japan" 
+                class="project-img" 
+                loading="lazy"
+              />
+              <button class="quick-view-trigger" aria-label="Quick view Urban Pavilion details">
+                <span>View Project</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+              </button>
+            </div>
+            <div class="project-info-bar">
+              <div class="project-meta-left">
+                <span class="project-index">04</span>
+                <div class="project-title-group">
+                  <h3 class="project-name">Urban Pavilion</h3>
+                  <p class="project-location-year">Aoyama, Tokyo · 2025</p>
+                </div>
+              </div>
+              <div class="project-meta-right">
+                <span class="project-specs">6,500 SQ. FT · HINOKI WOOD &amp; WATER COURTYARD</span>
+                <button class="project-link-btn" data-project-target="urban-pavilion">
+                  <span>View Project</span>
+                  <span class="link-arrow">&rarr;</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         FEATURED PROJECT: Immersive Film Cinema Section
+         ============================================== -->
+    <section class="featured-project-section" id="featured-project" aria-label="Featured Project Film">
+      <div class="editorial-container">
+        
+        <div class="featured-immersive-wrap reveal-on-scroll">
+          <div class="featured-img-holder">
+            <img 
+              src="assets/images/featured_desert_house.jpg" 
+              alt="The Desert House at dusk nestled in natural rocky landscape" 
+              class="featured-bg-img" 
+              id="featured-parallax-img"
+              loading="lazy"
+            />
+            <div class="featured-cinematic-overlay"></div>
+          </div>
+
+          <!-- Centered Play Button -->
+          <div class="film-play-center">
+            <button class="btn-play-film" id="btn-play-film" aria-label="Play Project Film: The Desert House">
+              <span class="play-pulse-ring"></span>
+              <span class="play-pulse-ring-2"></span>
+              <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="6,4 20,12 6,20"/>
+              </svg>
+            </button>
+            <span class="play-film-label">WATCH PROJECT FILM (03:45)</span>
+          </div>
+
+          <!-- Bottom Editorial Title Overlay -->
+          <div class="featured-content-bottom">
+            <div class="featured-titles">
+              <span class="featured-eyebrow">FEATURED RESIDENTIAL ARCHITECTURE</span>
+              <h2 class="featured-main-title">THE DESERT HOUSE</h2>
+              <p class="featured-location-year">CALIFORNIA · 2026</p>
+            </div>
+
+            <div class="featured-narrative">
+              <p>
+                A low-slung, monolithic residence sculpted into the desert topography. Glass curtains dissolve the boundary between sheltered domestic ritual and infinite starry expanse.
+              </p>
+              <div class="featured-film-stats">
+                <span>Architectural Director: Julian Vance</span>
+                <span>Completed: Q2 2026</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SERVICES SECTION: Concept to Completion
+         ============================================== -->
+    <section class="services-section" id="services" aria-label="Services and Practice">
+      <div class="editorial-container">
+        
+        <div class="services-header-block reveal-on-scroll">
+          <div class="section-tag-wrap">
+            <span class="section-tag-number">03</span>
+            <span class="section-tag-label">PRACTICE DISCIPLINES</span>
+          </div>
+          <h2 class="section-heading services-title">
+            FROM CONCEPT<br>TO COMPLETION
+          </h2>
+          <p class="services-subtext">
+            Our multidisciplinary studio integrates four core competencies to orchestrate bespoke architectural estates with singular artistic clarity.
+          </p>
+        </div>
+
+        <!-- 4 Services Grid with Micro-Interactions -->
+        <div class="services-grid">
+          
+          <!-- Service 01 -->
+          <div class="service-card reveal-on-scroll delay-1" tabindex="0">
+            <div class="service-card-top">
+              <span class="service-index">01</span>
+              <div class="service-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <path d="M3 9H21"/>
+                  <path d="M9 21V9"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">Architecture</h3>
+            <p class="service-desc">
+              Holistic residential master planning, sculptural massing, spatial choreography, and site-specific environmental engineering. We create timeless structural landmarks tailored to pristine natural terrain.
+            </p>
+            <ul class="service-deliverables">
+              <li>Site Analysis &amp; Solar Choreography</li>
+              <li>Parametric Massing &amp; Elevation Design</li>
+              <li>Structural Engineering Synthesis</li>
+              <li>Statutory Approvals &amp; Compliance</li>
+            </ul>
+            <div class="service-expand-footer">
+              <span class="service-learn-more">DISCOVER SCOPE</span>
+              <span class="service-arrow">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+          <div class="service-card reveal-on-scroll delay-2" tabindex="0">
+            <div class="service-card-top">
+              <span class="service-index">02</span>
+              <div class="service-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                  <path d="M4 21V10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v11"/>
+                  <path d="M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4"/>
+                  <circle cx="12" cy="5" r="2"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">Interior Design</h3>
+            <p class="service-desc">
+              Bespoke interior architecture, handcrafted millwork, tailored furniture curation, and poetic lighting choreography. Every surface offers a tactile dialogue of rare stone, aged timber, and linen.
+            </p>
+            <ul class="service-deliverables">
+              <li>Custom Architectural Joinery</li>
+              <li>Rare Material Palette &amp; Finishes</li>
+              <li>Curated Art &amp; Furniture Sourcing</li>
+              <li>Integrated Smart Ambient Lighting</li>
+            </ul>
+            <div class="service-expand-footer">
+              <span class="service-learn-more">DISCOVER SCOPE</span>
+              <span class="service-arrow">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+          <div class="service-card reveal-on-scroll delay-3" tabindex="0">
+            <div class="service-card-top">
+              <span class="service-index">03</span>
+              <div class="service-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                  <path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z"/>
+                  <path d="M12 17V22"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">Landscape Design</h3>
+            <p class="service-desc">
+              Seamless blurring of internal living zones and outdoor sanctuary. We sculpt native xeriscaping, dramatic water architecture, sunken fire lounges, and private courtyard ecosystems.
+            </p>
+            <ul class="service-deliverables">
+              <li>Native Botanical Regeneration</li>
+              <li>Reflecting Pools &amp; Thermal Water</li>
+              <li>Sunken Courtyards &amp; Earth Sculpting</li>
+              <li>Outdoor Terraces &amp; Dining Pavilions</li>
+            </ul>
+            <div class="service-expand-footer">
+              <span class="service-learn-more">DISCOVER SCOPE</span>
+              <span class="service-arrow">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Service 04 -->
+          <div class="service-card reveal-on-scroll delay-4" tabindex="0">
+            <div class="service-card-top">
+              <span class="service-index">04</span>
+              <div class="service-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">Project Development</h3>
+            <p class="service-desc">
+              Uncompromising turnkey representation from site acquisition and feasibility through master artisan supervision. We protect the integrity of the design through to the day keys are handed over.
+            </p>
+            <ul class="service-deliverables">
+              <li>Rare Site Acquisition &amp; Feasibility</li>
+              <li>Master Builder Procurement &amp; Oversight</li>
+              <li>Budgetary &amp; Programmatic Governance</li>
+              <li>White-Glove Handover &amp; Estate Manual</li>
+            </ul>
+            <div class="service-expand-footer">
+              <span class="service-learn-more">DISCOVER SCOPE</span>
+              <span class="service-arrow">&rarr;</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         PHILOSOPHY SECTION: Typography-Focused Manifesto
+         ============================================== -->
+    <section class="philosophy-section" id="philosophy" aria-label="Architectural Philosophy">
+      <div class="editorial-container">
+        
+        <div class="philosophy-frame reveal-on-scroll">
+          <div class="section-tag-wrap center-tag">
+            <span class="section-tag-number">04</span>
+            <span class="section-tag-label">PHILOSOPHY</span>
+          </div>
+
+          <blockquote class="philosophy-quote">
+            “EVERY SPACE WE CREATE<br>
+            HAS A PURPOSE.<br>
+            EVERY DETAIL HAS A REASON.”
+          </blockquote>
+
+          <p class="philosophy-narrative">
+            We reject the transient whims of decorative trends. In a world saturated with ephemeral fashion, true luxury resides in timeless proportions, structural purity, and the honest dialogue of honest materials. A home should not fight its environment—it should emerge from it, standing as an enduring testament to stillness and grace.
+          </p>
+
+          <!-- Interactive Materiality Tactile Strip -->
+          <div class="materiality-showcase">
+            <span class="materiality-label">STUDIO MATERIAL PALETTE:</span>
+            <div class="material-pills" role="radiogroup" aria-label="Select Material Specimen">
+              <button class="material-btn active" data-material="travertine" aria-checked="true">
+                <span class="mat-color-chip mat-travertine"></span>
+                <span>Tivoli Travertine</span>
+              </button>
+              <button class="material-btn" data-material="concrete" aria-checked="false">
+                <span class="mat-color-chip mat-concrete"></span>
+                <span>Board-Formed Concrete</span>
+              </button>
+              <button class="material-btn" data-material="walnut" aria-checked="false">
+                <span class="mat-color-chip mat-walnut"></span>
+                <span>Smoked European Walnut</span>
+              </button>
+              <button class="material-btn" data-material="bronze" aria-checked="false">
+                <span class="mat-color-chip mat-bronze"></span>
+                <span>Patinated Bronze</span>
+              </button>
+            </div>
+            
+            <div class="material-detail-panel" id="material-detail-panel">
+              <p class="mat-desc"><strong>Tivoli Travertine:</strong> Hand-cut sedimentary limestone quarried outside Rome. Warm ivory striations that diffuse natural desert light and soften acoustic resonance.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         IMAGE SHOWCASE: Horizontal Scrolling Gallery
+         ============================================== -->
+    <section class="showcase-section" id="showcase" aria-label="Interior Spatial Showcase">
+      <div class="editorial-container">
+        
+        <div class="showcase-header-row reveal-on-scroll">
+          <div class="showcase-titles">
+            <div class="section-tag-wrap">
+              <span class="section-tag-number">05</span>
+              <span class="section-tag-label">SPATIAL GALLERY</span>
+            </div>
+            <h2 class="section-heading">INTERIOR ARCHITECTURE &amp; DETAILS</h2>
+            <p class="showcase-sub">Drag, swipe, or use controls to explore considered spaces</p>
+          </div>
+
+          <!-- Gallery Navigation Controls -->
+          <div class="showcase-controls">
+            <button class="btn-carousel-nav" id="showcase-prev-btn" aria-label="Previous image">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5"/>
+              </svg>
+            </button>
+            <button class="btn-carousel-nav" id="showcase-next-btn" aria-label="Next image">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Horizontal Drag Track -->
+      <div class="showcase-track-container" id="showcase-track-container">
+        <div class="showcase-track" id="showcase-track">
+          
+          <!-- Slide 1: Living Room -->
+          <div class="showcase-slide" data-slide-index="0">
+            <div class="showcase-img-box">
+              <img src="assets/images/interior_living_room.jpg" alt="Minimalist luxury living room with curved sofa and desert sunset view" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">01 · LIVING SALON</span>
+                <h4 class="slide-title">Curved Organic Lounge</h4>
+                <p class="slide-desc">Double-height volumes with low-profile linen seating framing golden hour panoramas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Sculptural Staircase -->
+          <div class="showcase-slide" data-slide-index="1">
+            <div class="showcase-img-box">
+              <img src="assets/images/interior_sculptural_staircase.jpg" alt="Sculptural spiral concrete staircase with skylight" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">02 · CIRCULATION</span>
+                <h4 class="slide-title">Sculptural Spiral Staircase</h4>
+                <p class="slide-desc">Hand-burnished microcement spiral ascending beneath an architectural oculus skylight.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Kitchen -->
+          <div class="showcase-slide" data-slide-index="2">
+            <div class="showcase-img-box">
+              <img src="assets/images/interior_modern_kitchen.jpg" alt="Monolithic fluted travertine kitchen island with smoked oak" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">03 · CULINARY ARCHITECTURE</span>
+                <h4 class="slide-title">Monolithic Island Suite</h4>
+                <p class="slide-desc">Fluted travertine stone meeting dark smoked oak cabinetry and concealed appliances.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: Bedroom -->
+          <div class="showcase-slide" data-slide-index="3">
+            <div class="showcase-img-box">
+              <img src="assets/images/interior_bedroom.jpg" alt="Master bedroom suite opening onto private bamboo water garden" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">04 · PRIVATE RETREAT</span>
+                <h4 class="slide-title">Master Bedroom Suite</h4>
+                <p class="slide-desc">Lime-plastered walls and low teak platform bed opening to a meditative bamboo pond.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5: Pool Terrace -->
+          <div class="showcase-slide" data-slide-index="4">
+            <div class="showcase-img-box">
+              <img src="assets/images/interior_pool_terrace.jpg" alt="Sunken travertine fire lounge and infinity pool terrace at twilight" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">05 · OUTDOOR SANCTUARY</span>
+                <h4 class="slide-title">Sunken Fire Terrace</h4>
+                <p class="slide-desc">Travertine pavers, linear infinity horizon, and sunken fire pit framed by illuminated pergolas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6: Exterior Facade -->
+          <div class="showcase-slide" data-slide-index="5">
+            <div class="showcase-img-box">
+              <img src="assets/images/featured_desert_house.jpg" alt="Contemporary residence exterior in desert landscape at dusk" loading="lazy">
+              <div class="showcase-slide-meta">
+                <span class="slide-tag">06 · EXTERIOR ENVELOPE</span>
+                <h4 class="slide-title">Architectural Facade</h4>
+                <p class="slide-desc">Cantilevered concrete eaves echoing the geology of ancient desert mountain ridges.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Visual Progress Indicator -->
+      <div class="editorial-container">
+        <div class="showcase-progress-wrap">
+          <div class="showcase-progress-bar" id="showcase-progress-bar"></div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ==============================================
+         JOURNAL SECTION: Editorial Articles
+         ============================================== -->
+    <section class="journal-section" id="journal" aria-label="From the Journal">
+      <div class="editorial-container">
+        
+        <div class="journal-header-row reveal-on-scroll">
+          <div class="header-titles">
+            <div class="section-tag-wrap">
+              <span class="section-tag-number">06</span>
+              <span class="section-tag-label">DISCOURSE</span>
+            </div>
+            <h2 class="section-heading">FROM THE JOURNAL</h2>
+          </div>
+          <span class="journal-header-note">Essays on space, light, and enduring craft</span>
+        </div>
+
+        <!-- 3 Articles Grid -->
+        <div class="journal-grid">
+          
+          <!-- Article 01 -->
+          <article class="journal-card reveal-on-scroll delay-1" data-article-id="natural-light">
+            <div class="journal-img-wrap">
+              <img src="assets/images/journal_natural_light.jpg" alt="Sunlight casting diagonal geometric shadows on travertine wall" loading="lazy">
+              <span class="journal-category-pill">Light &amp; Form</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-date-time">
+                <span>OCTOBER 2026</span>
+                <span class="dot-sep">&bull;</span>
+                <span>5 MIN READ</span>
+              </div>
+              <h3 class="journal-title">Designing Homes Around Natural Light</h3>
+              <p class="journal-excerpt">
+                How solar trajectory dictates residential volume, acoustic calmness, and the circadian wellbeing of its inhabitants.
+              </p>
+              <button class="journal-read-link" data-article-target="natural-light">
+                <span>Read Essay</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.2"/>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Article 02 -->
+          <article class="journal-card reveal-on-scroll delay-2" data-article-id="sustainable-luxury">
+            <div class="journal-img-wrap">
+              <img src="assets/images/journal_sustainable_luxury.jpg" alt="Sustainable luxury rammed earth villa integrated into lush nature" loading="lazy">
+              <span class="journal-category-pill">Ecological Craft</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-date-time">
+                <span>SEPTEMBER 2026</span>
+                <span class="dot-sep">&bull;</span>
+                <span>7 MIN READ</span>
+              </div>
+              <h3 class="journal-title">The Future of Sustainable Luxury</h3>
+              <p class="journal-excerpt">
+                Moving beyond carbon offsets toward monolithic thermal mass, local quarries, and passive microclimate architecture.
+              </p>
+              <button class="journal-read-link" data-article-target="sustainable-luxury">
+                <span>Read Essay</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.2"/>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Article 03 -->
+          <article class="journal-card reveal-on-scroll delay-3" data-article-id="timeless-architecture">
+            <div class="journal-img-wrap">
+              <img src="assets/images/journal_timeless_architecture.jpg" alt="Board-formed concrete meeting hand-cut travertine and black steel" loading="lazy">
+              <span class="journal-category-pill">Material Philosophy</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-date-time">
+                <span>AUGUST 2026</span>
+                <span class="dot-sep">&bull;</span>
+                <span>4 MIN READ</span>
+              </div>
+              <h3 class="journal-title">Why Timeless Architecture Matters</h3>
+              <p class="journal-excerpt">
+                A defense of restraint: why houses built for the centuries prioritize proportion and raw materials over fleeting aesthetics.
+              </p>
+              <button class="journal-read-link" data-article-target="timeless-architecture">
+                <span>Read Essay</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.2"/>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         CONTACT SECTION: Premium Dark Charcoal
+         ============================================== -->
+    <section class="contact-section" id="contact" aria-label="Contact and Inquiries">
+      <div class="editorial-container">
+        
+        <div class="contact-card-dark reveal-on-scroll">
+          
+          <div class="contact-grid">
+            
+            <!-- Left Info Panel -->
+            <div class="contact-info-panel">
+              <div class="section-tag-wrap light-tag">
+                <span class="section-tag-number">07</span>
+                <span class="section-tag-label">INQUIRIES</span>
+              </div>
+
+              <h2 class="contact-hero-heading">
+                LET'S CREATE<br>
+                SOMETHING<br>
+                TIMELESS.
+              </h2>
+
+              <p class="contact-hero-sub">
+                Have a project in mind? Let's start a conversation.
+              </p>
+
+              <!-- Studio Locations & Live Time Clocks -->
+              <div class="studio-locations-list">
+                <div class="studio-box">
+                  <div class="studio-top">
+                    <span class="studio-city">LOS ANGELES</span>
+                    <span class="studio-clock" id="clock-la">PST</span>
+                  </div>
+                  <p class="studio-address">8490 Sunset Blvd, West Hollywood, CA 90069</p>
+                  <a href="tel:+13108492938" class="studio-phone">+1 (310) 849-2938</a>
+                </div>
+
+                <div class="studio-box">
+                  <div class="studio-top">
+                    <span class="studio-city">ZÜRICH</span>
+                    <span class="studio-clock" id="clock-zurich">CET</span>
+                  </div>
+                  <p class="studio-address">Bahnhofstrasse 42, 8001 Zürich, Switzerland</p>
+                  <a href="tel:+41442129800" class="studio-phone">+41 44 212 98 00</a>
+                </div>
+              </div>
+
+              <div class="contact-direct-wrap">
+                <span class="direct-label">PRIVATE COMMISSION INQUIRIES</span>
+                <a href="mailto:studio@aurelis-architecture.com" class="direct-email">studio@aurelis-architecture.com</a>
+              </div>
+            </div>
+
+            <!-- Right Interactive Inquiry Form -->
+            <div class="contact-form-panel">
+              <form class="luxury-form" id="contact-form" novalidate>
+                
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contact-name" class="form-label">YOUR NAME *</label>
+                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Eleanor Vance" required autocomplete="name">
+                    <span class="form-error-msg" id="name-error">Please provide your full name</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-email" class="form-label">EMAIL ADDRESS *</label>
+                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. eleanor@estate.com" required autocomplete="email">
+                    <span class="form-error-msg" id="email-error">Please provide a valid email address</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contact-phone" class="form-label">PHONE NUMBER</label>
+                    <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="+1 (555) 000-0000" autocomplete="tel">
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-project-type" class="form-label">PROJECT TYPE *</label>
+                    <select id="contact-project-type" name="projectType" class="form-select" required>
+                      <option value="" disabled selected>Select Commission Type</option>
+                      <option value="Private Residence">New Private Residence</option>
+                      <option value="Hillside / Coastal Estate">Hillside / Coastal Estate</option>
+                      <option value="Architectural Renovation">Architectural Renovation</option>
+                      <option value="Interior Architecture">Interior Architecture &amp; Curation</option>
+                      <option value="Commercial Landmark">Commercial Cultural Pavilion</option>
+                    </select>
+                    <span class="form-error-msg" id="type-error">Please select a project type</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-location" class="form-label">PROJECT LOCATION &amp; TARGET TIMELINE</label>
+                  <input type="text" id="contact-location" name="location" class="form-input" placeholder="e.g. Aspen, Colorado · Beginning Summer 2027">
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">PROJECT VISION &amp; DETAILS *</label>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Tell us about your site, architectural aspirations, and spatial desires..." required></textarea>
+                  <span class="form-error-msg" id="message-error">Please share a brief note about your project</span>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn-submit-luxury" id="contact-submit-btn">
+                    <span>Start a Conversation</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <p class="privacy-notice">Strict confidentiality guaranteed. We respond within 24 business hours.</p>
+                </div>
+
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==============================================
+       FOOTER: Minimal Luxury Architecture
+       ============================================== -->
+  <footer class="site-footer" id="site-footer" aria-label="Footer">
+    <div class="editorial-container">
+      
+      <!-- Top Footer Brand & Newsletter -->
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="#hero" class="footer-logo">
+            <svg class="brand-monogram" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.3"/>
+              <path d="M20 9L11 31H15L20 17.5L25 31H29L20 9Z" fill="currentColor"/>
+              <circle cx="20" cy="24" r="2.2" fill="currentColor"/>
+            </svg>
+            <span class="footer-brand-name">AURELIS</span>
+          </a>
+          <p class="footer-discipline">Architecture · Interiors · Development</p>
+          <p class="footer-motto">ARCHITECTURE BEYOND EXPECTATION</p>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-heading">NAVIGATION</span>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#journal">Journal</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-heading">DISCIPLINES</span>
+          <ul class="footer-links">
+            <li><a href="#services">Residential Architecture</a></li>
+            <li><a href="#services">Bespoke Interiors</a></li>
+            <li><a href="#services">Landscape Architecture</a></li>
+            <li><a href="#services">Turnkey Development</a></li>
+            <li><a href="#philosophy">Materiality Archive</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter-col">
+          <span class="footer-heading">MONOGRAPH &amp; DISPATCHES</span>
+          <p class="newsletter-sub">Receive our private biannual print monograph exploring singular architecture and materiality.</p>
+          <form class="footer-newsletter-form" id="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Enter email address" required aria-label="Email address for monograph subscription">
+              <button type="submit" aria-label="Subscribe to monograph">&rarr;</button>
+            </div>
+            <span class="newsletter-success-msg" id="newsletter-success">Thank you for subscribing to our monograph.</span>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="footer-copy">&copy; 2026 AURELIS Architecture Studio. All rights reserved.</p>
+        
+        <div class="footer-social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="ArchDaily">ArchDaily</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Behance">Behance</a>
+        </div>
+
+        <button class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M6 10V2M6 2L2 6M6 2L10 6" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ==============================================
+       INTERACTIVE MODALS & CINEMATIC FILM REEL
+       ============================================== -->
+
+  <!-- 1. Cinematic Film Player Modal -->
+  <div class="film-modal" id="film-modal" aria-hidden="true" role="dialog" aria-label="Project Film Player">
+    <div class="film-modal-backdrop" id="film-modal-backdrop"></div>
+    <div class="film-modal-window">
+      <button class="film-modal-close" id="film-modal-close" aria-label="Close Film Player">&times;</button>
+      
+      <div class="film-player-container">
+        <!-- Cinematic Simulation Canvas / Video Player -->
+        <div class="film-video-surface">
+          <img src="assets/images/featured_desert_house.jpg" alt="The Desert House Cinematic Reel" class="film-poster-img" id="film-poster-img">
+          
+          <div class="film-ambient-glow"></div>
+          
+          <div class="film-director-slate" id="film-director-slate">
+            <span class="slate-label">AURELIS CINEMA · 4K DIRECTORS CUT</span>
+            <h3 class="slate-title">THE DESERT HOUSE · CALIFORNIA</h3>
+            <p class="slate-meta">Director of Photography: Vance &amp; Mercer · 24fps Ultra Panavision</p>
+          </div>
+
+          <!-- Simulated Audio Wave / Ambient Player -->
+          <div class="film-soundscape-badge" id="film-audio-toggle">
+            <span class="sound-bars">
+              <i></i><i></i><i></i><i></i>
+            </span>
+            <span class="sound-text">SOUNDSCAPE: SONORAN DUSK (AMBIENT)</span>
+          </div>
+        </div>
+
+        <!-- Custom Film Player Controls -->
+        <div class="film-controls-bar">
+          <button class="film-play-toggle" id="film-play-toggle" aria-label="Play/Pause">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6,4 20,12 6,20"/>
+            </svg>
+          </button>
+          
+          <div class="film-timeline-wrap">
+            <div class="film-timeline-progress" id="film-timeline-progress"></div>
+          </div>
+
+          <div class="film-timecode" id="film-timecode">01:24 / 03:45</div>
+
+          <button class="film-fullscreen-btn" id="film-fullscreen-btn" aria-label="Fullscreen">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 2. Project Quick-View Modal -->
+  <div class="project-modal" id="project-modal" aria-hidden="true" role="dialog" aria-label="Residence Details Modal">
+    <div class="project-modal-backdrop" id="project-modal-backdrop"></div>
+    <div class="project-modal-content">
+      <button class="project-modal-close" id="project-modal-close" aria-label="Close Project Details">&times;</button>
+      
+      <div class="project-modal-body" id="project-modal-body">
+        <!-- Dynamically rendered by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 3. Journal Reader Drawer / Modal -->
+  <div class="journal-modal" id="journal-modal" aria-hidden="true" role="dialog" aria-label="Journal Article Reader">
+    <div class="journal-modal-backdrop" id="journal-modal-backdrop"></div>
+    <div class="journal-modal-drawer">
+      <button class="journal-modal-close" id="journal-modal-close" aria-label="Close Article">&times;</button>
+      
+      <div class="journal-modal-content" id="journal-modal-content">
+        <!-- Dynamically rendered by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 4. Inquiry Sent Confirmation Dialog -->
+  <div class="dialog-modal" id="inquiry-dialog" aria-hidden="true" role="dialog" aria-label="Inquiry Received">
+    <div class="dialog-backdrop" id="dialog-backdrop"></div>
+    <div class="dialog-card">
+      <div class="dialog-icon-wrap">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M8 12L11 15L16 9"/>
+        </svg>
+      </div>
+      <h3 class="dialog-title">CONVERSATION INITIATED</h3>
+      <p class="dialog-desc">
+        Thank you for entrusting AURELIS with your architectural aspirations. A principal architect will personally review your site parameters and contact you within 24 business hours.
+      </p>
+      <div class="dialog-meta-box">
+        <span class="dialog-meta-id">CONFIRMATION REF: #AUR-2026-9481</span>
+        <span class="dialog-meta-studio">DIRECT PROTOCOL: LOS ANGELES &amp; ZÜRICH</span>
+      </div>
+      <button class="btn-primary dialog-dismiss-btn" id="dialog-dismiss-btn">
+        <span>Close Window</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- 5. Mobile Fullscreen Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <div class="mobile-nav-top">
+        <span class="mobile-nav-label">NAVIGATION</span>
+        <button class="mobile-close-btn" id="mobile-close-btn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-menu-links">
+        <li><a href="#hero" class="mobile-link"><span>01</span> Home</a></li>
+        <li><a href="#about" class="mobile-link"><span>02</span> About</a></li>
+        <li><a href="#projects" class="mobile-link"><span>03</span> Projects</a></li>
+        <li><a href="#services" class="mobile-link"><span>04</span> Services</a></li>
+        <li><a href="#journal" class="mobile-link"><span>05</span> Journal</a></li>
+        <li><a href="#contact" class="mobile-link"><span>06</span> Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <p class="mobile-tagline">ARCHITECTURE BEYOND EXPECTATION</p>
+        <a href="mailto:studio@aurelis-architecture.com" class="mobile-contact-email">studio@aurelis-architecture.com</a>
+        <p class="mobile-tel">+1 (310) 849-2938 · Los Angeles &amp; Zurich</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
